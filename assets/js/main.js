@@ -50,7 +50,7 @@ sr.reveal(".skills__data",{interval: 400});
 sr.reveal(".skills__img",{delay: 400});
 
 //Scroll reveal PROJECTS.
-sr.reveal(".card",{interval: 200});
+sr.reveal(".projects__img",{interval: 200});
 
 //Scroll reveal CONTACT.
 sr.reveal(".contact__input",{interval: 200});
