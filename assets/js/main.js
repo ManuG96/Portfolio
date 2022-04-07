@@ -54,3 +54,12 @@ sr.reveal(".projects__img",{interval: 200});
 
 //Scroll reveal CONTACT.
 sr.reveal(".contact__input",{interval: 200});
+
+
+//Reset form.
+const form = document.getElementById("form");
+const submit = document.getElementById("submit");
+
+submit.addEventListener("click", () => {
+    form.reset();
+})
