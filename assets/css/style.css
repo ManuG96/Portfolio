@@ -59,13 +59,11 @@ body{
     color: var(--second-color);
     background-color: var(--third-color);
 }
-
 .dark-mode{
     --second-color: #FFF;
     --third-color: hsl(var(--hue-color), 56%, 12%);
     --skills-color: hsl(var(--hue-color), 60%, 25%);
 }
-
 h1,h2,p{
     margin: 0;
 }
