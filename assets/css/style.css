@@ -142,10 +142,18 @@ img{
         background-color: var(--nav-color);
         transition: .5s;
     }
-    .nav__item:last-child{
+    .nav__item:nth-last-child(2){
         position: absolute;
         top: 2rem;
+        right: 2rem;
+    }
+    .nav__item:last-child{
+        position: absolute;
+        top: 5rem;
         right: 1.4rem;
+    }
+    .nav__item:last-child .lang{
+        width: 35px;
     }
 }
 .nav__item{
@@ -175,6 +183,7 @@ img{
     font-size: 1.5rem;
     cursor: pointer;
 }
+nav
 
 /*Active menu*/
 .active::after{
@@ -521,4 +530,8 @@ img{
     .about__img img {
     width: 400px;
     }
+}
+.lang{
+    width: 50px;
+    height: 30px;
 }
