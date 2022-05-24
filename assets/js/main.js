@@ -56,16 +56,6 @@ sr.reveal(".projects__img",{interval: 200});
 sr.reveal(".contact__input",{interval: 200});
 
 
-//Reset form.
-const form = document.getElementById("form");
-const submit = document.getElementById("submit");
-
-submit.addEventListener("click", () => {
-    form.reset();
-});
-
-
-
 //DARK LIGHT THEME
 
 const themeButton = document.getElementById("theme-button");
